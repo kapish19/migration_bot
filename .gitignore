@@ -1,1 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Environment
 .env
+.env.*
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# PDF Reports (if generated dynamically)
+*.pdf
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Cache / temporary files
+.cache/
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Packages
+venv/
+env/
+*.bak
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Docker (if used)
+*.tar
+**/__pycache__/
+
+# PyInstaller
+dist/
+build/
